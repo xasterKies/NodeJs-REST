@@ -5,9 +5,9 @@
 // greet('mario');
 // greet('yoshi');
 
-//Global object
+//Global objectconsole.log(__dirname);
+// console.log(__filename);
 
-console.log(global);
+//console.log(global);
 
-console.log(__dirname);
-console.log(__filename);
+// 
