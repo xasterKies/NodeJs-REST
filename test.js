@@ -1,6 +1,10 @@
-const greet = (name) => {
-    console.log(`hello, ${name}`);
-}
+// const greet = (name) => {
+//     console.log(`hello, ${name}`);
+// }
 
-greet('mario');
-greet('yoshi');
+// greet('mario');
+// greet('yoshi');
+
+//Global object
+
+console.log(global);
