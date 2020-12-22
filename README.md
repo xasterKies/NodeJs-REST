@@ -1,2 +1,2 @@
 # NodeJs-REST
-Diving in NodeJs and associated tools like : Express, MongoDB and REST API
+Diving in NodeJs, graphql and associated tools like : Express, MongoDB and REST API
