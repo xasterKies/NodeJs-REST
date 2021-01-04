@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
 
-    //res.send('<p>Home page</p>');
+    res.render('index');
 });
 
 
