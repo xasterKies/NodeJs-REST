@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/about', (req, res) => {
-    res.send('./views/about.html', { root: __dirname });
+    res.send('about', { root: __dirname });
 });
 
 //redirects
