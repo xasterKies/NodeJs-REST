@@ -10,3 +10,9 @@ app.get('/', (req, res) => {
 
     res.send('<p>Home page</p>');
 });
+
+
+app.get('/about', (req, res) => {
+
+    res.send('<p>about page</p>');
+});
