@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
 
-    res.render('index', {title:"xasty Blog"});
+    res.render('index', {title:"Home"});
 });
 
 
