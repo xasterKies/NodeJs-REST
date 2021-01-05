@@ -6,18 +6,7 @@
     <title>xasty Blog | <%= title %></title>
 </head>
 <body>
-    <nav>
-        <div class="site-title">
-            <a href="/">Bloggy<h1></h1></a>
-            <p>xasty Site</p>
-        </div>
-        <ul>
-            <li><a href="/">Blogs</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blogs/create">New Blog</a></li>
-        </ul>
-    </nav>
-
+    <%- include('./partials/nav.ejs') %>
     <div class="blogs content">
         <h2>All Blogs</h2>
         <% if (blogs.length > 0) { %>
