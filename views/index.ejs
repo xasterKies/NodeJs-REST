@@ -21,8 +21,10 @@
     <div class="blogs content">
         <h2>All Blogs</h2>
         <% if (blogs.length > 0) {%>
-            <h3></h3>
-            <p></p>
+            <% blogs.forEach(blog => {
+                <h3></h3>
+                <p></p>
+            <% }) %>
         <% } %>
     </div>
 </body>
