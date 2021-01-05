@@ -8,8 +8,13 @@ app.listen(3000);
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
+    const blogs = [
+        {title: 'Yoshi finds eggs', snippet: 'lorem ipsum dolor sit amet consectetur'},
+        {title: 'Mario finds stars', snippet: 'lorem ipsum dolor sit amet consectetur'},
+        {title: 'How to defeat bowser', snippet: 'lorem ipsum dolor sit amet consectetur'},
 
-    res.render('index', {title:"Home"});
+    ];
+    res.render('index', {title:"Home", blogs});
 });
 
 
