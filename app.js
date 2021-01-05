@@ -9,16 +9,16 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
 
-    res.render('index');
+    res.render('index', {title:"xasty Blog"});
 });
 
 
 app.get('/about', (req, res) => {
-    res.render('about');
+    res.render('about',{ title:"About"});
 });
 
 app.get('/blogs/create', (req, res) => {
-    res.render('create');
+    res.render('create' ,{title: "Create Blog"});
 })
 
 // 404 page
