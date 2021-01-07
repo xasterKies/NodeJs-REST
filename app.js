@@ -7,6 +7,13 @@ const app = express();
 app.listen(3000);
 app.set('view engine', 'ejs');
 
+app.use((req, res) => {
+    console.log('new request made: ');
+    console.log('host: ', req.hostname);
+    console.log('path: ', req.path);
+    console.log('method: ', req.method);
+})
+
 app.get('/', (req, res) => {
     const blogs = [
         {title: 'Yoshi finds eggs', snippet: 'lorem ipsum dolor sit amet consectetur'},
