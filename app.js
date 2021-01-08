@@ -1,6 +1,9 @@
 const express = require('express');
 const morgan = require('morgan');
 
+//connect to mongodb
+dbURI = 'mongodb+srv://xaster:samueltiokeng01@nodetuts.mb6hp.mongodb.net/<dbname>?retryWrites=true&w=majority'
+
 //express app
 const app = express();
 
